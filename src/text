@@ -1,0 +1,67 @@
+import styled, { keyframes } from "styled-components";
+
+
+
+const Title = styled.h1`
+  color: ${(props) => props.theme.textColor};
+`;
+
+const Text = styled.span`
+  color: tomato;
+`;
+
+const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+  width: 97vw;
+  background-color: ${(props) => props.theme.backgroundColor};
+`;
+const rotationAnimation = keyframes`
+  0%{
+    transform:rotate(0deg);
+    border-radius:0px;
+  }
+  50% {
+    transform:rotate(360deg);
+    border-radius:100px;
+  }
+  100%{
+    transform:rotate(0deg);
+    border-radius:0px;
+  }
+`;
+
+const Emoji = styled.span`
+  font-size: 38px;
+`;
+
+const Box = styled.div`
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: ${rotationAnimation} 1s linear;
+  ${Emoji} {
+    &:hover {
+      font-size: 97px;
+    }
+  }
+`;
+
+function App() {
+    return (
+      <Wrapper>
+        <Box>
+          <Title>Hello</Title>
+        </Box>
+        <Text>HI</Text>
+      </Wrapper>
+    );
+  }
+  
+  export default App;
+  
