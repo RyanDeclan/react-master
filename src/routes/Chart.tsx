@@ -34,7 +34,7 @@ function Chart({ coinId }: ChartProps) {
   });
 
   return (
-    <div>
+    <div style={{ color: "black" }}>
       {isLoading ? (
         "Loading chart..."
       ) : (
@@ -57,6 +57,7 @@ function Chart({ coinId }: ChartProps) {
                 show: false,
               },
             },
+
             yaxis: {
               show: false,
               tooltip: {
