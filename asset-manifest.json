@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/github.io/react-master/static/js/main.d22086c7.chunk.js",
+    "main.js.map": "/github.io/react-master/static/js/main.d22086c7.chunk.js.map",
+    "runtime-main.js": "/github.io/react-master/static/js/runtime-main.ee239c4c.js",
+    "runtime-main.js.map": "/github.io/react-master/static/js/runtime-main.ee239c4c.js.map",
+    "static/js/2.1a9f4214.chunk.js": "/github.io/react-master/static/js/2.1a9f4214.chunk.js",
+    "static/js/2.1a9f4214.chunk.js.map": "/github.io/react-master/static/js/2.1a9f4214.chunk.js.map",
+    "index.html": "/github.io/react-master/index.html",
+    "static/js/2.1a9f4214.chunk.js.LICENSE.txt": "/github.io/react-master/static/js/2.1a9f4214.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee239c4c.js",
+    "static/js/2.1a9f4214.chunk.js",
+    "static/js/main.d22086c7.chunk.js"
+  ]
+}
