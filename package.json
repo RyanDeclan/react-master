@@ -3,34 +3,39 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "@types/jest": "^27.0.3",
-    "@types/node": "^16.11.12",
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
-    "apexcharts": "^3.32.0",
+    "@fortawesome/fontawesome-svg-core": "^1.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.0.0",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13",
+    "@types/react-fontawesome": "^1.6.5",
+    "@types/youtube": "^0.0.46",
+    "apexcharts": "^3.33.2",
+    "framer-motion": "^6.2.8",
     "react": "^17.0.2",
-    "react-apexcharts": "^1.3.9",
+    "react-apexcharts": "^1.4.0",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "react-hook-form": "^7.21.2",
-    "react-query": "^3.34.0",
-    "react-router-dom": "^6.0.2",
-    "react-scripts": "4.0.3",
-    "recoil": "^0.5.2",
+    "react-hook-form": "^7.27.1",
+    "react-query": "^3.34.16",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "react-youtube": "^7.14.0",
+    "recoil": "^0.6.1",
     "styled-components": "^5.3.3",
-    "typescript": "^4.5.2",
-    "web-vitals": "^1.1.2"
+    "typescript": "^4.6.2",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -51,10 +56,9 @@
     ]
   },
   "devDependencies": {
-    "@types/react-helmet": "^6.1.4",
+    "@types/react-helmet": "^6.1.5",
     "@types/react-query": "^1.2.9",
-    "@types/react-router-dom": "^5.3.2",
-    "@types/styled-components": "^5.1.17"
-  },
-  "homepage": "https://kang-cheol-won.github.io/react-master"
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.24"
+  }
 }
